@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Segoe UI Black;
+}
+.background{
+	width: 100%;
+	height: 100vh;
+	background-color:#222;
+	position: relative;
+}
+.phone{
+	height: 700px;
+	width: 350px;
+	background-color: #aaa;
+	position: absolute;
+	font-size: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+}
+#custom {
+  	width: 100px;
+  	height: 300px;
+  	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+	background-color: #aaa;
+	opacity: 0.95;
+	cursor: pointer;
+}
+#data{
+	position: absolute;
+	font-size: 250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #737373;
+	opacity: 0.3;
+}
+.name{
+	position: absolute;
+	font-size: 50px;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+}
+.icon img{
+	width:51.2px;
+	height: 51.2px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#sun {
+  	height: 50px;
+	width: 50px;
+  	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #aaa;
+	
+}
